@@ -1,6 +1,6 @@
 # P-AKA DSN Source -- OpenAirInterface Refactored Modules
 
-The 5G core VNFs included as tar.gz files are modified versions of the OpenAirInterface 5G core VNFs [link](https://gitlab.eurecom.fr/oai/cn5g)
+The 5G core VNFs included as tar.gz files are modified versions of the [OpenAirInterface 5G core VNFs](https://gitlab.eurecom.fr/oai/cn5g)
 
 OAI 5G core VNFs require an extended TIMEOUT period so as not to crash while working with P-AKA. Thus, the OAI 5G core VNF images with increased API TIMEOUT are marked with a (+++) below.
 

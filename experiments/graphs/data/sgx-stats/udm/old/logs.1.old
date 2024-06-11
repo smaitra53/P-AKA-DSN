@@ -1,0 +1,12 @@
+(host_thread.c:60:update_and_print_stats) ----- Total SGX stats for process 9 -----
+  # of EENTERs:        1495
+  # of EEXITs:         1401
+  # of AEXs:           140002
+  # of sync signals:   82
+  # of async signals:  0
+(host_thread.c:60:update_and_print_stats) ----- Total SGX stats for process 9 -----
+  # of EENTERs:        1488
+  # of EEXITs:         1394
+  # of AEXs:           140172
+  # of sync signals:   82
+  # of async signals:  0

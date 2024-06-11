@@ -1,0 +1,5 @@
+
+curl -X POST http://127.0.0.1:9090/f2345 -H 'Content-Type: application/json' -d 'Y7+lDuZSM2X/FMH0X4hzfQ==&DAo0YB1PB2dzA2UsBGJTEA==&K25JOxjqz5KgpWSBKjjpcg==&0Xhak/oJ9UIAAAAAAAAAAA==&EyOzgkDUApzZ/CGMpeidPw==&n1w626qxuUVauZ2PmK0O0Q==&g+M9yliI'
+
+
+curl -X POST http://127.0.0.1:9090/udmaka -H 'Content-Type: application/json' -d 'Y7+lDuZSM2X/FMH0X4hzfQ==&DAo0YB1PB2dzA2UsBGJTEA==&AAAAAAFA&gAAAAAAAAUAAAAAAAAAAAA&5G:mnc095.mcc208.3gppnetwork.org'

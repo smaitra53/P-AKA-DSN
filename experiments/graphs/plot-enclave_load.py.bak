@@ -1,0 +1,30 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+df = pd.read_csv('data/enc_load-udm_1st_run-fall_gautn.csv', header=None)
+
+
+# Create a figure with two subplots
+fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(8, 6))
+
+# Set the font size
+sns.set(font_scale=1.2)
+
+# Plot the functional latency box plot on the first subplot
+sns.boxplot(data=[df[0]], ax=ax1, width=0.1, color='skyblue')
+ax1.set_ylabel('Enclave Load Time (minutes)')
+ax1.set_xticklabels([])
+ax1.grid(True)
+
+# Plot the total latency box plot on the second subplot
+sns.boxplot(data=[df[1]], ax=ax2, width=0.1, color='grey')
+ax2.set_ylabel('Module Response Latency (us) [Initial]')
+ax2.set_xticklabels([])
+ax2.grid(True)
+
+# Adjust the subplots' layout
+plt.tight_layout()
+
+# Show the plot
+plt.show()
